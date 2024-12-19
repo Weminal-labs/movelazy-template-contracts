@@ -1,0 +1,19 @@
+[package]
+name = "twitter-clone-aptos"
+version = "1.0.0"
+authors = []
+
+[addresses]
+twitter_addr = "0x42"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
+
+[compiler]
+warning_suppression_flags = ["unused_variable"]
